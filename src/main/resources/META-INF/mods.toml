@@ -1,0 +1,21 @@
+
+modLoader="javafml" #mandatory
+
+loaderVersion="[40,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+
+license="All rights reserved"
+
+[[mods]] #mandatory
+
+modId="hamzasapes" #mandatory
+version="${file.jarVersion}" #mandatory
+
+displayName="Hamza's Apes" #mandatory
+
+logoFile="examplemod.png" #optional
+credits="" #optional
+
+authors="" #optional
+description='''
+Hamza's Apes Mod
+'''

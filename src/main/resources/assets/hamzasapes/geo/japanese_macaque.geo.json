@@ -1,0 +1,77 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.japanese_macaque",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 8, -1]
+				},
+				{
+					"name": "body",
+					"parent": "root",
+					"pivot": [0, 8, -1],
+					"cubes": [
+						{"origin": [-4, 5, -6], "size": [9, 7, 11], "inflate": 0.2, "uv": [0, 18]}
+					]
+				},
+				{
+					"name": "tail",
+					"parent": "body",
+					"pivot": [0.5, 9.5, 5],
+					"cubes": [
+						{"origin": [0, 9, 5], "size": [1, 1, 10], "pivot": [0.5, 9.5, 5], "rotation": [-42.5, 0, 0], "uv": [29, 18]}
+					]
+				},
+				{
+					"name": "head",
+					"parent": "root",
+					"pivot": [0, 10, -6],
+					"cubes": [
+						{"origin": [-3, 7, -11], "size": [7, 7, 5], "uv": [30, 0]}
+					]
+				},
+				{
+					"name": "leg1",
+					"parent": "root",
+					"pivot": [3.5, 5, -4.25],
+					"cubes": [
+						{"origin": [2, 0, -6], "size": [3, 7, 3], "inflate": 0.2, "uv": [24, 36]}
+					]
+				},
+				{
+					"name": "leg2",
+					"parent": "root",
+					"pivot": [-2.5, 5, -4.5],
+					"cubes": [
+						{"origin": [-4, 0, -6], "size": [3, 7, 3], "inflate": 0.2, "uv": [24, 36]}
+					]
+				},
+				{
+					"name": "leg3",
+					"parent": "root",
+					"pivot": [3.5, 6, 3.75],
+					"cubes": [
+						{"origin": [2.1, 0, 2], "size": [3, 7, 3], "inflate": 0.3, "uv": [24, 36]}
+					]
+				},
+				{
+					"name": "leg4",
+					"parent": "root",
+					"pivot": [-2.75, 6, 3.5],
+					"cubes": [
+						{"origin": [-4.1, 0, 2], "size": [3, 7, 3], "inflate": 0.3, "uv": [24, 36]}
+					]
+				}
+			]
+		}
+	]
+}

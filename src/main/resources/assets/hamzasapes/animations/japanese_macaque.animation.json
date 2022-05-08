@@ -1,0 +1,93 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.japanese_macaque.walk": {
+			"loop": true,
+			"animation_length": 1.5,
+			"bones": {
+				"JapaneseMacaque": {
+					"rotation": {
+						"vector": ["math.cos(query.anim_time*490)*1", 0, 0]
+					}
+				},
+				"body": {
+					"rotation": {
+						"vector": [0, 0, "math.cos(query.anim_time*245)*-2"]
+					}
+				},
+				"head": {
+					"rotation": {
+						"vector": ["math.cos(query.anim_time*490)*1", 0, "math.cos(query.anim_time*245)*-1"]
+					}
+				},
+				"leg1": {
+					"rotation": {
+						"vector": ["math.cos(query.anim_time*240)*15", 0, 0]
+					},
+					"position": {
+						"vector": [0, "0.2+math.cos(query.anim_time*490)*0.2", "0.5+math.cos(query.anim_time*240)*0.5"]
+					}
+				},
+				"leg2": {
+					"rotation": {
+						"vector": ["math.cos(query.anim_time*240)*-15", 0, 0]
+					},
+					"position": {
+						"vector": [0, "0.2+math.cos(query.anim_time*490)*0.2", "0.5+math.cos(query.anim_time*240)*-0.5"]
+					}
+				},
+				"leg3": {
+					"rotation": {
+						"vector": ["math.cos(query.anim_time*240)*-15", 0, 0]
+					},
+					"position": {
+						"vector": [0, "0.2+math.cos(query.anim_time*490)*0.2", "-0.5+math.cos(query.anim_time*240)*-0.5"]
+					}
+				},
+				"leg4": {
+					"rotation": {
+						"vector": ["math.cos(query.anim_time*240)*15", 0, 0]
+					},
+					"position": {
+						"vector": [0, "0.2+math.cos(query.anim_time*490)*0.2", "-0.5+math.cos(query.anim_time*240)*0.5"]
+					}
+				},
+				"tail": {
+					"rotation": {
+						"vector": ["math.cos(query.anim_time*490)*3", 0, "math.cos(query.anim_time*245)*-10"]
+					}
+				}
+			}
+		},
+		"animation.japanese_macaque.idle": {
+			"loop": true,
+			"animation_length": 1.5,
+			"bones": {
+				"body": {
+					"rotation": {
+						"vector": ["math.cos(query.anim_time*245)*0.5", 0, 0]
+					},
+					"position": {
+						"vector": [0, "math.cos(query.anim_time*245)*0.1", 0]
+					}
+				},
+				"head": {
+					"rotation": {
+						"vector": ["1+math.cos(query.anim_time*245)*1", 0, 0]
+					}
+				},
+				"leg3": {
+					"rotation": {
+						"vector": ["Japanese macaque", 0, 0]
+					}
+				},
+				"tail": {
+					"rotation": {
+						"vector": [0, 0, "math.cos(query.anim_time*245)*5"]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}
